@@ -66,6 +66,8 @@ def test_error_saving_with_unselected_matches(driver):
     page.select_user(USER_NAME)
     page.click_tied_game_options(5)
     page.click_save_forecast()
+    # Se añada esta parte solo para que se visualice como validad el mensaje
+    time.sleep(5)
     assert page.verify_text_present("Te faltan partidos por llenar"), \
         "Error message for unselected matches was not found."
     page.close_popup()

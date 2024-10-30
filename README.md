@@ -13,3 +13,6 @@ pip install -r requirements.txt
 Para descargar la versión correcta del Chrome Driver para tu versión de navegador, puedes visitar el siguiente enlace:
 
 [Google Chrome Labs - Chrome para Testing](https://googlechromelabs.github.io/chrome-for-testing/)
+
+## Evidencias de Pruebas: 
+En la carpeta de executionVideos
